@@ -3,7 +3,7 @@ import SearchForm from './SearchForm';
 import WeatherCard from './CityWeather';
 import './Main.css';
 
-const API_KEY = '2925c77ba08a4049d157ee2cf0d90282';
+const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
 
 // city, countryCode, weatherMain, weatherDescription, tempMin, tempMax, lon, lat
 
