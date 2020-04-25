@@ -5,7 +5,6 @@ import './Main.css';
 
 const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
 
-// city, countryCode, weatherMain, weatherDescription, tempMin, tempMax, lon, lat
 
 const Weather = () => {
     const [city, setCity] = useState('');
@@ -56,6 +55,7 @@ const Weather = () => {
     const [error, setError] = useState('');
     const [isLoading, setIsloading] = useState(false);
 
+    console.log(process.env);
     const valueChanged = (e) => {
         setCity(e.target.value);
     }
