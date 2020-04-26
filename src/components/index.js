@@ -3,7 +3,7 @@ import SearchForm from './SearchForm'
 import WeatherCard from './WeatherCard'
 import { toast } from 'react-toastify'
 
-const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY
+const API_KEY = '2925c77ba08a4049d157ee2cf0d90282'
 
 const Weather = () => {
   const [city, setCity] = useState('')
